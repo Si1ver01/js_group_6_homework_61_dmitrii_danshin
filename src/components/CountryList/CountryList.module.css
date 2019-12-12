@@ -1,0 +1,33 @@
+.CountryList{
+  width: 30%;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+::-webkit-scrollbar-button {
+  width:5px;
+  height:0px
+  }
+  
+  ::-webkit-scrollbar-track {
+  background-color:#7986cb
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background-color:#1a237e;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+  background-color:#304ffe;
+  }
+  
+  ::-webkit-resizer{
+  width:4px;
+  height:0px
+  }
+  
+  ::-webkit-scrollbar{
+  width: 4px;
+  }

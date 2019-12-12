@@ -1,0 +1,20 @@
+.CountryItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #7986cb;
+  padding: 5px 2px;
+  background: #c5cae9;
+  color: #212121;
+  cursor: pointer;
+  transition: .3s ease-in;
+}
+
+.CountryItem:hover{
+  background: #9fa8da;
+}
+
+.CountryItem:active{
+  background: #7986cb;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.438);
+}

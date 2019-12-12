@@ -1,0 +1,23 @@
+.Weather{
+  position: absolute;
+  top: 200px;
+  right: 20px;
+}
+
+.Weather h3{
+  text-align: center;
+}
+
+.Weather ul{
+  list-style: none;
+}
+
+.Weather li {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid gray;
+}
+
+.Weather span {
+  margin-right: 5px;
+}
